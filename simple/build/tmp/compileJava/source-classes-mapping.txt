@@ -1,4 +1,0 @@
-com/sematext/blog/logging/JavaUtilsLogging.java
- com.sematext.blog.logging.JavaUtilsLogging
-com/sematext/blog/logging/JavaSLF4JLogging.java
- com.sematext.blog.logging.JavaSLF4JLogging
