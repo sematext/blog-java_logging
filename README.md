@@ -6,4 +6,5 @@ The code in this repository was used for demo purposes when writing the blog pos
  
 The following code examples are available:
 
-  * simple - pure Java java.utils.logging logging and SLF4J without any additional logging framework
+  1. simple - pure Java java.util.logging logging and SLF4J without any additional logging framework
+  2. configjul - configuration example for java.util.logging 
