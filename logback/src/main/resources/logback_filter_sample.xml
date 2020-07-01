@@ -3,9 +3,7 @@
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</pattern>
         </encoder>
-        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
-            <level>WARN</level>
-        </filter>
+        <filter class="com.sematext.blog.logging.logback.SampleFilter" />
     </appender>
 
     <root level="info">
