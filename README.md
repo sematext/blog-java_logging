@@ -1,6 +1,10 @@
 # Code examples for Java logging blog post
 
-The code in this repository was used for demo purposes when writing the blog post about Java logging: TODO
+The code in this repository was used for demo purposes when writing the blog post about logging and handling exceptions in Java. 
+
+The list of blog posts that uses the specified examples are as follows:
+ * [Java Logging Tutorial: Basic Concepts to Help You Get Started](https://sematext.com/blog/java-logging/)
+ * [Java Logging Best Practices: 10+ Tips You Should Know to Get the Most Out of Your Logs](https://sematext.com/blog/java-logging-best-practices/)
 
 ## Code examples
  
