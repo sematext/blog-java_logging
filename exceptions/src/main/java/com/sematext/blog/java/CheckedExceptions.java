@@ -15,6 +15,6 @@ public class CheckedExceptions {
   }
 
   public void wrongThrowsExample() {
-    throw new FileNotFoundException("File not found");
+    //throw new FileNotFoundException("File not found");
   }
 }
