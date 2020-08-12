@@ -4,9 +4,6 @@ import java.io.File;
 import java.io.IOException;
 
 public class ThrowingExceptions {
-  public static void main(String[] args) {
-  }
-
   public File openFile(String path) throws IOException {
     File file = new File(path);
     if (!file.exists()) {
