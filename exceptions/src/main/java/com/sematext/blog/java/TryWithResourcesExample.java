@@ -14,4 +14,17 @@ public class TryWithResourcesExample {
       // do something when issues during reader close happens
     }
   }
+
+  public void readFiles(String filePathOne, String filePathTwo) {
+    try (
+        FileReader readerOne = new FileReader(filePathOne);
+        FileReader readerTwo = new FileReader(filePathTwo);
+    ) {
+      // do something
+    } catch (FileNotFoundException ex) {
+      // do something when file is not found
+    } catch (IOException ex) {
+      // do something when issues during reader close happens
+    }
+  }
 }
