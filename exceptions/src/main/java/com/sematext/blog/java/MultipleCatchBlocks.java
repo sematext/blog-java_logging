@@ -14,6 +14,14 @@ public class MultipleCatchBlocks {
     }
   }
 
+  public void runSingleCatch(String file) {
+    try {
+      readAndParse(file);
+    } catch (FileNotFoundException | ParseException ex) {
+      // do something when file is not found
+    }
+  }
+
   public void readAndParse(String file) throws FileNotFoundException, ParseException {
     // some business code
   }
