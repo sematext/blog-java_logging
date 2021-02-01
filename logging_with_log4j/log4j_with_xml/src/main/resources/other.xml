@@ -1,0 +1,14 @@
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration>
+    <appender name="MAIN" class="org.apache.log4j.ConsoleAppender">
+        <param name="Target" value="System.out"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%r %-5p %c %x - %m%n" />
+        </layout>
+    </appender>
+
+    <root>
+        <priority value ="debug"></priority>
+        <appender-ref ref="MAIN" />
+    </root>
+</log4j:configuration>

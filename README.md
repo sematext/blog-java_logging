@@ -20,3 +20,4 @@ The following code examples are available:
   8. performance - Exception performance comparison
   9. simple - pure Java java.util.logging logging and SLF4J without any additional logging framework
   10. slf4j - SLF4J based example
+  11. logging_with_log4j - examples for the Logging with Log4j blog post 
