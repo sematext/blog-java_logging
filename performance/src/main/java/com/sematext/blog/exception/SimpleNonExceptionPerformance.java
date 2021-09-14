@@ -9,7 +9,7 @@ public class SimpleNonExceptionPerformance extends TestPerformance {
   @Override
   public int divide(int dividend, int divisor) {
     if (divisor != 0) {
-      return 10 / divisor;
+      return dividend / divisor;
     }
     return -1;
   }
